@@ -153,10 +153,10 @@ const EmailTable = () => {
 
   return (
     <div className=" w-full">
-      <div className=" w-[80%] my-10 m-auto border-2 border-gray-500 rounded-md">
+      <div className=" w-[85%] my-10 m-auto border-2 border-gray-500 rounded-md">
         <h1 className=" text-center sm:text-4xl text-xl my-3">Ticketing System</h1>
         <hr />
-        <div className=" flex justify-start mx-5 items-center">
+        <div className=" flex justify-start mx-2 items-center">
           <span className=" my-2 sm:sm:text-2xl text-base">Fault State : </span>
           <input
             type="radio"
@@ -181,18 +181,18 @@ const EmailTable = () => {
             Close
           </label>
         </div>
-        <div className=" flex justify-start mx-5 items-center">
-          <span className=" my-2 sm:text-2xl text-base mr-2 ">TT Number : </span>
+        <div className=" flex justify-start mx-2 items-center">
+          <span className=" mb-2 mr-1 sm:text-2xl text-base">TT Number : </span>
           <input
             name="ttNumber"
             type="text"
             value={ttNumber}
             onChange={handleChangettNumber}
-            className=" border border-gray-400 rounded-lg w-[70%]"
+            className=" border border-gray-400 rounded-lg w-[45%]"
           />
         </div>
-        <div className="flex justify-start mx-5 items-center">
-          <span className=" my-2 sm:text-2xl text-base">Notification : </span>
+        <div className="flex justify-start mx-2 items-center">
+          <span className="  mb-2 mr-1 sm:text-2xl text-base">Notification : </span>
           <input
             type="radio"
             name="openOrCloseNotification"
@@ -216,8 +216,8 @@ const EmailTable = () => {
             Closed
           </label>
         </div>
-        <div className="flex justify-start mx-5 items-center">
-          <span className=" my-2 sm:text-2xl text-base">Network : </span>
+        <div className="flex justify-start mx-2 items-center">
+          <span className="  mb-2 mr-1 sm:text-2xl text-base">Network : </span>
           <input
             name="Network"
             type="radio"
@@ -227,7 +227,7 @@ const EmailTable = () => {
             className=" sm:size-5 size-3 sm:mx-3 mx-1"
           />
           <label className=" sm:text-xl text-base" for="HUAWEI-QPN">
-            HUAWEI-QPN
+            H-QPN
           </label>
           <input
             name="Network"
@@ -238,11 +238,11 @@ const EmailTable = () => {
             className=" sm:size-5 size-3 sm:mx-3 mx-1"
           />
           <label className=" sm:text-xl text-base" for="ZONE-SSN">
-            ZONE-SSN
+            Z-SSN
           </label>
         </div>
-        <div className="flex justify-start mx-5 items-center">
-          <span className=" my-2 sm:text-2xl text-base">Seveirty : </span>
+        <div className="flex justify-start mx-2 items-center">
+          <span className="  mb-2 mr-1 sm:text-2xl text-base">Seveirty : </span>
           <input
             name="Seveirty"
             type="radio"
@@ -277,58 +277,58 @@ const EmailTable = () => {
             Minor
           </label>
         </div>
-        <div className="flex justify-start mx-5 items-center">
-          <span className=" my-2 sm:text-2xl text-base mr-2 ">Fault Occurred Time : </span>
+        <div className="flex justify-start mx-2 items-center">
+          <span className="  mb-2 mr-1 sm:text-2xl text-base ">Fault Occurred Time : </span>
           <input
             name="FaultOccurredTime"
             type="text"
             value={FaultOccurredTime}
             onChange={handleChangeFaultOccurredTime}
-            className=" border border-gray-400 rounded-lg w-[70%]"
+            className=" border border-gray-400 rounded-lg w-[45%]"
           />
         </div>
-        <div className="flex justify-start mx-5 items-center">
-          <span className=" my-2 sm:text-2xl text-base mr-2 ">Fault Restoration Time : </span>
+        <div className="flex justify-start mx-2 items-center">
+          <span className="  mb-2 mr-1 sm:text-2xl text-base ">Fault Restoration Time : </span>
           <input
             name="FaultRestorationTime"
             type="text"
             value={FaultRestorationTime}
             onChange={handleChangeFaultRestorationTime}
-            className=" border border-gray-400 rounded-lg w-[70%]"
+            className=" border border-gray-400 rounded-lg w-[45%]"
           />
         </div>
-        <div className="flex justify-start mx-5 items-center">
-          <span className=" my-2 sm:text-2xl text-base mr-2 ">Fault Description : </span>
+        <div className="flex justify-start mx-2 items-center">
+          <span className="  mb-2 mr-1 sm:text-2xl text-base ">Fault Description : </span>
           <input
             name="FaultDescription"
             type="text"
             value={FaultDescription}
             onChange={handleChangeFaultDescription}
-            className=" border border-gray-400 rounded-lg w-[70%]"
+            className=" border border-gray-400 rounded-lg w-[45%]"
           />
         </div>
-        <div className="flex justify-start mx-5 items-center">
-          <span className=" my-2 sm:text-2xl text-base  mr-2">Effected NE : </span>
+        <div className="flex justify-start mx-2 items-center">
+          <span className="  mb-2 mr-1 sm:text-2xl text-base ">Effected NE : </span>
           <input
             name="effectedNE"
             type="text"
             value={effectedNE}
             onChange={handleChangeeffectedNE}
-            className=" border border-gray-400 rounded-lg w-[70%]"
+            className=" border border-gray-400 rounded-lg w-[45%]"
           />
         </div>
-        <div className="flex justify-start mx-5 items-center">
-          <span className=" my-2 sm:text-2xl text-base  mr-2">NE Slot / Port : </span>
+        <div className="flex justify-start mx-2 items-center">
+          <span className="  mb-2 mr-1 sm:text-2xl text-base ">NE Slot / Port : </span>
           <input
             name="neSlotAndPort"
             type="text"
             value={neSlotAndPort}
             onChange={handleChangeneSlotAndPort}
-            className=" border border-gray-400 rounded-lg w-[70%]"
+            className=" border border-gray-400 rounded-lg w-[45%]"
           />
         </div>
-        <div className="flex justify-start mx-5 items-center">
-          <span className=" my-2 sm:text-2xl text-base  mr-2">
+        <div className="flex justify-start mx-2 items-center">
+          <span className="  mb-2 mr-1 sm:text-2xl text-base ">
             Assigned TO :{" "}
           </span>
           <input
@@ -336,17 +336,17 @@ const EmailTable = () => {
             type="text"
             value={assignedTo}
             onChange={handleChangeassignedTo}
-            className=" border border-gray-400 rounded-lg w-[70%]"
+            className=" border border-gray-400 rounded-lg w-[45%]"
           />
         </div>
-        <div className="flex justify-start mx-5 items-center">
-          <span className=" my-2 sm:text-2xl text-base  mr-2">Root Cause : </span>
+        <div className="flex justify-start mx-2 items-center">
+          <span className="  mb-2 mr-1 sm:text-2xl text-base ">Root Cause : </span>
           <input
             name="rootCause"
             type="text"
             value={rootCause}
             onChange={handleChangerootCause}
-            className=" border border-gray-400 rounded-lg w-[70%]"
+            className=" border border-gray-400 rounded-lg w-[45%]"
           />
         </div>
         <hr className=" mt-5" />
