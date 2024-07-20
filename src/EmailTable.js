@@ -188,7 +188,7 @@ const EmailTable = () => {
             type="text"
             value={ttNumber}
             onChange={handleChangettNumber}
-            className=" border border-gray-400 rounded-lg w-[45%]"
+            className=" border border-gray-400 rounded-lg w-[35%]"
           />
         </div>
         <div className="flex justify-start mx-2 items-center">
@@ -284,7 +284,7 @@ const EmailTable = () => {
             type="text"
             value={FaultOccurredTime}
             onChange={handleChangeFaultOccurredTime}
-            className=" border border-gray-400 rounded-lg w-[45%]"
+            className=" border border-gray-400 rounded-lg w-[35%]"
           />
         </div>
         <div className="flex justify-start mx-2 items-center">
@@ -294,7 +294,7 @@ const EmailTable = () => {
             type="text"
             value={FaultRestorationTime}
             onChange={handleChangeFaultRestorationTime}
-            className=" border border-gray-400 rounded-lg w-[45%]"
+            className=" border border-gray-400 rounded-lg w-[35%]"
           />
         </div>
         <div className="flex justify-start mx-2 items-center">
@@ -304,7 +304,7 @@ const EmailTable = () => {
             type="text"
             value={FaultDescription}
             onChange={handleChangeFaultDescription}
-            className=" border border-gray-400 rounded-lg w-[45%]"
+            className=" border border-gray-400 rounded-lg w-[35%]"
           />
         </div>
         <div className="flex justify-start mx-2 items-center">
@@ -314,7 +314,7 @@ const EmailTable = () => {
             type="text"
             value={effectedNE}
             onChange={handleChangeeffectedNE}
-            className=" border border-gray-400 rounded-lg w-[45%]"
+            className=" border border-gray-400 rounded-lg w-[35%]"
           />
         </div>
         <div className="flex justify-start mx-2 items-center">
@@ -324,7 +324,7 @@ const EmailTable = () => {
             type="text"
             value={neSlotAndPort}
             onChange={handleChangeneSlotAndPort}
-            className=" border border-gray-400 rounded-lg w-[45%]"
+            className=" border border-gray-400 rounded-lg w-[35%]"
           />
         </div>
         <div className="flex justify-start mx-2 items-center">
@@ -336,7 +336,7 @@ const EmailTable = () => {
             type="text"
             value={assignedTo}
             onChange={handleChangeassignedTo}
-            className=" border border-gray-400 rounded-lg w-[45%]"
+            className=" border border-gray-400 rounded-lg w-[35%]"
           />
         </div>
         <div className="flex justify-start mx-2 items-center">
@@ -346,7 +346,7 @@ const EmailTable = () => {
             type="text"
             value={rootCause}
             onChange={handleChangerootCause}
-            className=" border border-gray-400 rounded-lg w-[45%]"
+            className=" border border-gray-400 rounded-lg w-[35%]"
           />
         </div>
         <hr className=" mt-5" />
