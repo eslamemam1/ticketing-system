@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import logo from './huawei.png'
 const EmailTable = () => {
   const [faultState, setFaultState] = useState("");
   const handleChange = (event) => {
@@ -157,7 +157,7 @@ const EmailTable = () => {
         <h1 className=" text-center sm:text-4xl text-xl my-3">Ticketing System</h1>
         <hr />
         <div className=" flex justify-start mx-5 items-center">
-          <span className=" my-2 sm:sm:text-2xl text-xl text-xl">Fault State : </span>
+          <span className=" my-2 sm:sm:text-2xl text-base">Fault State : </span>
           <input
             type="radio"
             name="openOrClose"
@@ -182,7 +182,7 @@ const EmailTable = () => {
           </label>
         </div>
         <div className=" flex justify-start mx-5 items-center">
-          <span className=" my-2 sm:text-2xl text-xl mr-2 ">TT Number : </span>
+          <span className=" my-2 sm:text-2xl text-base mr-2 ">TT Number : </span>
           <input
             name="ttNumber"
             type="text"
@@ -192,7 +192,7 @@ const EmailTable = () => {
           />
         </div>
         <div className="flex justify-start mx-5 items-center">
-          <span className=" my-2 text-2xl">Notification : </span>
+          <span className=" my-2 sm:text-2xl text-base">Notification : </span>
           <input
             type="radio"
             name="openOrCloseNotification"
@@ -217,7 +217,7 @@ const EmailTable = () => {
           </label>
         </div>
         <div className="flex justify-start mx-5 items-center">
-          <span className=" my-2 text-2xl">Network : </span>
+          <span className=" my-2 sm:text-2xl text-base">Network : </span>
           <input
             name="Network"
             type="radio"
@@ -242,7 +242,7 @@ const EmailTable = () => {
           </label>
         </div>
         <div className="flex justify-start mx-5 items-center">
-          <span className=" my-2 text-2xl">Seveirty : </span>
+          <span className=" my-2 sm:text-2xl text-base">Seveirty : </span>
           <input
             name="Seveirty"
             type="radio"
@@ -278,7 +278,7 @@ const EmailTable = () => {
           </label>
         </div>
         <div className="flex justify-start mx-5 items-center">
-          <span className=" my-2 sm:text-2xl text-xl mr-2 ">Fault Occurred Time : </span>
+          <span className=" my-2 sm:text-2xl text-base mr-2 ">Fault Occurred Time : </span>
           <input
             name="FaultOccurredTime"
             type="text"
@@ -288,7 +288,7 @@ const EmailTable = () => {
           />
         </div>
         <div className="flex justify-start mx-5 items-center">
-          <span className=" my-2 sm:text-2xl text-xl mr-2 ">Fault Restoration Time : </span>
+          <span className=" my-2 sm:text-2xl text-base mr-2 ">Fault Restoration Time : </span>
           <input
             name="FaultRestorationTime"
             type="text"
@@ -298,7 +298,7 @@ const EmailTable = () => {
           />
         </div>
         <div className="flex justify-start mx-5 items-center">
-          <span className=" my-2 sm:text-2xl text-xl mr-2 ">Fault Description : </span>
+          <span className=" my-2 sm:text-2xl text-base mr-2 ">Fault Description : </span>
           <input
             name="FaultDescription"
             type="text"
@@ -308,7 +308,7 @@ const EmailTable = () => {
           />
         </div>
         <div className="flex justify-start mx-5 items-center">
-          <span className=" my-2 sm:text-2xl text-xl  mr-2">Effected NE : </span>
+          <span className=" my-2 sm:text-2xl text-base  mr-2">Effected NE : </span>
           <input
             name="effectedNE"
             type="text"
@@ -318,7 +318,7 @@ const EmailTable = () => {
           />
         </div>
         <div className="flex justify-start mx-5 items-center">
-          <span className=" my-2 sm:text-2xl text-xl  mr-2">NE Slot / Port : </span>
+          <span className=" my-2 sm:text-2xl text-base  mr-2">NE Slot / Port : </span>
           <input
             name="neSlotAndPort"
             type="text"
@@ -328,7 +328,7 @@ const EmailTable = () => {
           />
         </div>
         <div className="flex justify-start mx-5 items-center">
-          <span className=" my-2 sm:text-2xl text-xl  mr-2">
+          <span className=" my-2 sm:text-2xl text-base  mr-2">
             Assigned TO :{" "}
           </span>
           <input
@@ -340,7 +340,7 @@ const EmailTable = () => {
           />
         </div>
         <div className="flex justify-start mx-5 items-center">
-          <span className=" my-2 sm:text-2xl text-xl  mr-2">Root Cause : </span>
+          <span className=" my-2 sm:text-2xl text-base  mr-2">Root Cause : </span>
           <input
             name="rootCause"
             type="text"
@@ -381,6 +381,7 @@ const EmailTable = () => {
           ></textarea>
         </div>
       </div>
+      <img src={logo} alt="Description" />
     </div>
   );
 };
