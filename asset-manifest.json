@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ticketing-system/static/css/main.8b81316d.css",
-    "main.js": "/ticketing-system/static/js/main.6c489cbc.js",
+    "main.css": "/ticketing-system/static/css/main.1e0e5748.css",
+    "main.js": "/ticketing-system/static/js/main.df1002d3.js",
     "static/js/453.a5c03cd4.chunk.js": "/ticketing-system/static/js/453.a5c03cd4.chunk.js",
     "static/media/huawei.png": "/ticketing-system/static/media/huawei.ec6bec31d153b7dc2285.png",
     "index.html": "/ticketing-system/index.html",
-    "main.8b81316d.css.map": "/ticketing-system/static/css/main.8b81316d.css.map",
-    "main.6c489cbc.js.map": "/ticketing-system/static/js/main.6c489cbc.js.map",
+    "main.1e0e5748.css.map": "/ticketing-system/static/css/main.1e0e5748.css.map",
+    "main.df1002d3.js.map": "/ticketing-system/static/js/main.df1002d3.js.map",
     "453.a5c03cd4.chunk.js.map": "/ticketing-system/static/js/453.a5c03cd4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b81316d.css",
-    "static/js/main.6c489cbc.js"
+    "static/css/main.1e0e5748.css",
+    "static/js/main.df1002d3.js"
   ]
 }
