@@ -154,19 +154,19 @@ const EmailTable = () => {
   return (
     <div className=" w-full">
       <div className=" w-[80%] my-10 m-auto border-2 border-gray-500 rounded-md">
-        <h1 className=" text-center text-4xl my-3">Ticketing System</h1>
+        <h1 className=" text-center sm:text-4xl text-xl my-3">Ticketing System</h1>
         <hr />
         <div className=" flex justify-start mx-5 items-center">
-          <span className=" text-2xl">Fault State : </span>
+          <span className=" my-2 sm:sm:text-2xl text-xl text-xl">Fault State : </span>
           <input
             type="radio"
             name="openOrClose"
             value="Open"
             id="open"
             onClick={handleChange}
-            className=" size-5 mx-3"
+            className=" sm:size-5 size-3 sm:mx-3 mx-1"
           />
-          <label for="open" className=" text-xl">
+          <label for="open" className=" sm:text-xl text-base">
             Open
           </label>
           <input
@@ -175,14 +175,14 @@ const EmailTable = () => {
             value="Close"
             id="close"
             onClick={handleChange}
-            className=" size-5 mx-3"
+            className=" sm:size-5 size-3 sm:mx-3 mx-1"
           />
-          <label for="close" className=" text-xl">
+          <label for="close" className=" sm:text-xl text-base">
             Close
           </label>
         </div>
         <div className=" flex justify-start mx-5 items-center">
-          <span className=" text-2xl mr-2 ">TT Number : </span>
+          <span className=" my-2 sm:text-2xl text-xl mr-2 ">TT Number : </span>
           <input
             name="ttNumber"
             type="text"
@@ -192,16 +192,16 @@ const EmailTable = () => {
           />
         </div>
         <div className="flex justify-start mx-5 items-center">
-          <span className=" text-2xl">Notification : </span>
+          <span className=" my-2 text-2xl">Notification : </span>
           <input
             type="radio"
             name="openOrCloseNotification"
             value="Opened"
             id="Opened"
             onChange={handleChangeNotification}
-            className=" size-5 mx-3"
+            className=" sm:size-5 size-3 sm:mx-3 mx-1"
           />
-          <label className=" text-xl" for="Opened">
+          <label className=" sm:text-xl text-base" for="Opened">
             Opened
           </label>
           <input
@@ -210,23 +210,23 @@ const EmailTable = () => {
             value="Closed"
             id="Closed"
             onChange={handleChangeNotification}
-            className=" size-5 mx-3"
+            className=" sm:size-5 size-3 sm:mx-3 mx-1"
           />
-          <label className=" text-xl" for="Closed">
+          <label className=" sm:text-xl text-base" for="Closed">
             Closed
           </label>
         </div>
         <div className="flex justify-start mx-5 items-center">
-          <span className=" text-2xl">Network : </span>
+          <span className=" my-2 text-2xl">Network : </span>
           <input
             name="Network"
             type="radio"
             value="HUAWEI-QPN"
             id="HUAWEI-QPN"
             onChange={handleChangeNetwork}
-            className=" size-5 mx-3"
+            className=" sm:size-5 size-3 sm:mx-3 mx-1"
           />
-          <label className=" text-xl" for="HUAWEI-QPN">
+          <label className=" sm:text-xl text-base" for="HUAWEI-QPN">
             HUAWEI-QPN
           </label>
           <input
@@ -235,23 +235,23 @@ const EmailTable = () => {
             value="ZONE-SSN"
             id="ZONE-SSN"
             onChange={handleChangeNetwork}
-            className=" size-5 mx-3"
+            className=" sm:size-5 size-3 sm:mx-3 mx-1"
           />
-          <label className=" text-xl" for="ZONE-SSN">
+          <label className=" sm:text-xl text-base" for="ZONE-SSN">
             ZONE-SSN
           </label>
         </div>
         <div className="flex justify-start mx-5 items-center">
-          <span className=" text-2xl">Seveirty : </span>
+          <span className=" my-2 text-2xl">Seveirty : </span>
           <input
             name="Seveirty"
             type="radio"
             value="Critical"
             id="Critical"
             onChange={handleChangeSeveirty}
-            className=" size-5 mx-3"
+            className=" sm:size-5 size-3 sm:mx-3 mx-1"
           />
-          <label className=" text-xl" for="Critical">
+          <label className=" sm:text-xl text-base" for="Critical">
             Critical
           </label>
           <input
@@ -260,9 +260,9 @@ const EmailTable = () => {
             value="Major"
             id="Major"
             onChange={handleChangeSeveirty}
-            className=" size-5 mx-3"
+            className=" sm:size-5 size-3 sm:mx-3 mx-1"
           />
-          <label className=" text-xl" for="Major">
+          <label className=" sm:text-xl text-base" for="Major">
             Major
           </label>
           <input
@@ -271,14 +271,14 @@ const EmailTable = () => {
             value="Minor"
             id="Minor"
             onChange={handleChangeSeveirty}
-            className=" size-5 mx-3"
+            className=" sm:size-5 size-3 sm:mx-3 mx-1"
           />
-          <label className=" text-xl" for="Minor">
+          <label className=" sm:text-xl text-base" for="Minor">
             Minor
           </label>
         </div>
         <div className="flex justify-start mx-5 items-center">
-          <span className=" text-2xl mr-2 ">Fault Occurred Time : </span>
+          <span className=" my-2 sm:text-2xl text-xl mr-2 ">Fault Occurred Time : </span>
           <input
             name="FaultOccurredTime"
             type="text"
@@ -288,7 +288,7 @@ const EmailTable = () => {
           />
         </div>
         <div className="flex justify-start mx-5 items-center">
-          <span className=" text-2xl mr-2 ">Fault Restoration Time : </span>
+          <span className=" my-2 sm:text-2xl text-xl mr-2 ">Fault Restoration Time : </span>
           <input
             name="FaultRestorationTime"
             type="text"
@@ -298,7 +298,7 @@ const EmailTable = () => {
           />
         </div>
         <div className="flex justify-start mx-5 items-center">
-          <span className=" text-2xl mr-2 ">Fault Description : </span>
+          <span className=" my-2 sm:text-2xl text-xl mr-2 ">Fault Description : </span>
           <input
             name="FaultDescription"
             type="text"
@@ -308,7 +308,7 @@ const EmailTable = () => {
           />
         </div>
         <div className="flex justify-start mx-5 items-center">
-          <span className=" text-2xl  mr-2">Effected NE : </span>
+          <span className=" my-2 sm:text-2xl text-xl  mr-2">Effected NE : </span>
           <input
             name="effectedNE"
             type="text"
@@ -318,7 +318,7 @@ const EmailTable = () => {
           />
         </div>
         <div className="flex justify-start mx-5 items-center">
-          <span className=" text-2xl  mr-2">NE Slot / Port : </span>
+          <span className=" my-2 sm:text-2xl text-xl  mr-2">NE Slot / Port : </span>
           <input
             name="neSlotAndPort"
             type="text"
@@ -328,8 +328,8 @@ const EmailTable = () => {
           />
         </div>
         <div className="flex justify-start mx-5 items-center">
-          <span className=" text-2xl  mr-2">
-            Assigned TO (Group & Assignee) :{" "}
+          <span className=" my-2 sm:text-2xl text-xl  mr-2">
+            Assigned TO :{" "}
           </span>
           <input
             name="assignedTo"
@@ -340,7 +340,7 @@ const EmailTable = () => {
           />
         </div>
         <div className="flex justify-start mx-5 items-center">
-          <span className=" text-2xl  mr-2">Root Cause : </span>
+          <span className=" my-2 sm:text-2xl text-xl  mr-2">Root Cause : </span>
           <input
             name="rootCause"
             type="text"
